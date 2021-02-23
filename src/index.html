@@ -2,15 +2,6 @@
 layout: default.html
 ---
 
-<div class="loading-message">
-	<span class="loading-message-loading">Loading...</span>
-	<span class="loading-message-failed">Failed :-(</span>
-</div>
-
-<div class="variable-support-message">
-	Your browser doesn't do variable fonts :-(
-</div>
-
 <main>
 	<!--
 	You have two variables at your disposal:
@@ -31,33 +22,7 @@ layout: default.html
 	{% assign main_id = 0 %}
 	{% assign main_selector = fontdata[main_id].selector %}
 
-	<h1>Specimen Skeleton for {{ fontdata[main_id].name }}</h1>
-
-	<h2>Specimen Skeleton knows these fonts:</h2>
-	<ul>
-		{% for font in fontdata %}
-			<li class="{{ font.selector }}">
-				{{ font.name }}
-				{{ font.style }}
-				{{ font.selector }}
-				{{ fonts[font.selector].axes.length }} axes
-				{{ fonts[font.selector].instances.length }} instances
-				{% if font.selector == main_selector %}
-				 (Main font)
-				{% endif %}
-			</li>
-		{% endfor %}
-	</ul>
-
-	<hr>
 
 	{% include interactive-controls.html %}
 
-	<hr />
-
-	{% include character-grid.html %}
-
-	<hr />
-
-	{% include animation.html %}
 </main>

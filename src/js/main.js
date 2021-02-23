@@ -14,45 +14,8 @@
 
 import "./assets.js";
 import fontData from "../_data/fontdata.json";
-import FontFaceObserver from "fontfaceobserver";
 
-const fontTimeOut = 5000; // In milliseconds
 const fontClasses = fontData.map(f => f.selector);
-
-// Generic: throttle
-const throttle = (fn, wait) => {
-	let last, queue;
-
-	return function runFn(...args) {
-		const now = Date.now();
-		queue = clearTimeout(queue);
-
-		if (!last || now - last >= wait) {
-			fn.apply(null, args);
-			last = now;
-		} else {
-			queue = setTimeout(runFn.bind(null, ...args), wait - (now - last));
-		}
-	};
-};
-
-// Set up FontFaceObserver
-let observers = [];
-for (const fd of fontData) {
-	const font = new FontFaceObserver(fd.name);
-	observers.push(font.load(null, fontTimeOut));
-}
-
-Promise.all(observers).then(
-	() => {
-		// All fonts have loaded
-		document.documentElement.classList.add("fonts-loaded");
-	},
-	() => {
-		// One or more fonts didn't load
-		document.documentElement.classList.add("fonts-failed");
-	}
-);
 
 // Interactive controls (sliders that tweak axes)
 const interactives = document.querySelectorAll(".interactive-controls");
@@ -61,6 +24,9 @@ for (const interactive of interactives) {
 	const styles = interactive.querySelector(".interactive-controls-styles");
 	const sliders = interactive.querySelectorAll(
 		".interactive-controls-slider"
+	);
+	const checkboxes = interactive.querySelectorAll(
+		".interactive-controls-checkbox"
 	);
 	const instances = interactive.querySelector(
 		".interactive-controls-instances"
@@ -75,6 +41,21 @@ for (const interactive of interactives) {
 		varset(slider.name, slider.value);
 		slider.oninput = e => {
 			// Set new axis value to text area
+			varset(e.target.name, e.target.value);
+			// Unselect named instance dropdown
+			// Optionally, see if current axes match instance and select that
+			if (instances) {
+				instances.selectedIndex = -1;
+			}
+		};
+	}
+
+	for (const checkbox of checkboxes) {
+		// Apply initial axis value to text area
+		varset(checkbox.name, checkbox.value);
+		checkbox.oninput = e => {
+			// Set new axis value to text area
+			e.target.value = 1 - e.target.value;
 			varset(e.target.name, e.target.value);
 			// Unselect named instance dropdown
 			// Optionally, see if current axes match instance and select that
@@ -103,38 +84,4 @@ for (const interactive of interactives) {
 			area.classList.add(e.target.value);
 		};
 	}
-}
-
-// Watch if .am-i-in-view elements are visible on screen
-// and apply a class accordingly
-if ("IntersectionObserver" in window) {
-	// eslint-disable-next-line compat/compat
-	const obs = new IntersectionObserver(els => {
-		els.forEach(el => {
-			el.intersectionRatio > 0
-				? el.target.classList.add("in-view")
-				: el.target.classList.remove("in-view");
-		});
-	});
-
-	const elements = document.querySelectorAll(".am-i-in-view");
-	elements.forEach(el => {
-		obs.observe(el);
-	});
-}
-
-// Character grid
-const grid = document.querySelector(".character-grid");
-const gridzoom = document.querySelector(".character-grid-zoom");
-const gridtoggle = document.querySelector(".character-grid-toggle");
-grid.onmousemove = throttle(e => {
-	if (e.target.tagName === "LI") {
-		gridzoom.innerHTML = e.target.innerHTML;
-	}
-}, 100);
-if (gridtoggle) {
-	gridtoggle.onchange = e => {
-		grid.classList.remove(...fontClasses);
-		grid.classList.add(e.target.value);
-	};
 }

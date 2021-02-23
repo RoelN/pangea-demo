@@ -1,0 +1,562 @@
+[
+	{
+		"name": "Light",
+		"axes": {
+			"wght": 300,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Regular",
+		"axes": {
+			"wght": 400,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Medium",
+		"axes": {
+			"wght": 500,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "SemiBold",
+		"axes": {
+			"wght": 600,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Bold",
+		"axes": {
+			"wght": 700,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Light Italic",
+		"axes": {
+			"wght": 300,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Regular Italic",
+		"axes": {
+			"wght": 400,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Medium Italic",
+		"axes": {
+			"wght": 500,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "SemiBold Italic",
+		"axes": {
+			"wght": 600,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Bold Italic",
+		"axes": {
+			"wght": 700,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 0,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Light Text",
+		"axes": {
+			"wght": 300,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Regular Text",
+		"axes": {
+			"wght": 400,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Medium Text",
+		"axes": {
+			"wght": 500,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "SemiBold Text",
+		"axes": {
+			"wght": 600,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Bold Text",
+		"axes": {
+			"wght": 700,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Light Text Italic",
+		"axes": {
+			"wght": 300,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Regular Text Italic",
+		"axes": {
+			"wght": 400,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Medium Text Italic",
+		"axes": {
+			"wght": 500,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "SemiBold Text Italic",
+		"axes": {
+			"wght": 600,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Bold Text Italic",
+		"axes": {
+			"wght": 700,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 0,
+			"SS03": 0
+		}
+	},
+	{
+		"name": "Light Simple",
+		"axes": {
+			"wght": 300,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Regular Simple",
+		"axes": {
+			"wght": 400,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Medium Simple",
+		"axes": {
+			"wght": 500,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "SemiBold Simple",
+		"axes": {
+			"wght": 600,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Bold Simple",
+		"axes": {
+			"wght": 700,
+			"ital": 0,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Light Simple Italic",
+		"axes": {
+			"wght": 300,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Regular Simple Italic",
+		"axes": {
+			"wght": 400,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Medium Simple Italic",
+		"axes": {
+			"wght": 500,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "SemiBold Simple Italic",
+		"axes": {
+			"wght": 600,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Bold Simple Italic",
+		"axes": {
+			"wght": 700,
+			"ital": 1,
+			"XTDR": 0,
+			"APRT": 0,
+			"SPAC": 0,
+			"INKT": 0,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Light Simple Text",
+		"axes": {
+			"wght": 300,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Regular Simple Text",
+		"axes": {
+			"wght": 400,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Medium Simple Text",
+		"axes": {
+			"wght": 500,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "SemiBold Simple Text",
+		"axes": {
+			"wght": 600,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Bold Simple Text",
+		"axes": {
+			"wght": 700,
+			"ital": 0,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Light Simple Text Italic",
+		"axes": {
+			"wght": 300,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Regular Simple Text Italic",
+		"axes": {
+			"wght": 400,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Medium Simple Text Italic",
+		"axes": {
+			"wght": 500,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "SemiBold Simple Text Italic",
+		"axes": {
+			"wght": 600,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	},
+	{
+		"name": "Bold Simple Text Italic",
+		"axes": {
+			"wght": 700,
+			"ital": 1,
+			"XTDR": 50,
+			"APRT": 100,
+			"SPAC": 40,
+			"INKT": 1,
+			"SS01": 1,
+			"SS02": 1,
+			"SS03": 1
+		}
+	}
+]

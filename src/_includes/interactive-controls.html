@@ -25,16 +25,27 @@
 			{% for axis in fonts[main_selector].axes %}
 			<li>
 				<label for="axis-{{ axis.axis }}">{{ axis.name }}</label>
-				<input
-					type="range"
-					min="{{ axis.min }}"
-					max="{{ axis.max }}"
-					value="{{ axis.default }}"
-					name="{{ axis.axis }}"
-					id="axis-{{ axis.axis }}"
-					step="{{ axis.step | default: 0.1 }}"
-					class="interactive-controls-slider"
-				/>
+				{% if axis.max == 1 %}
+					<input
+						type="checkbox"
+						value="{{ axis.default }}"
+						selected="{{ axis.default == 1 }}"
+						name="{{ axis.axis }}"
+						id="axis-{{ axis.axis }}"
+						class="interactive-controls-checkbox"
+					/>
+				{% else %}
+					<input
+						type="range"
+						min="{{ axis.min }}"
+						max="{{ axis.max }}"
+						value="{{ axis.default }}"
+						name="{{ axis.axis }}"
+						id="axis-{{ axis.axis }}"
+						step="{{ axis.step | default: 0.1 }}"
+						class="interactive-controls-slider"
+					/>
+				{% endif %}
 			</li>
 			{% endfor %}
 		{% endif %}
